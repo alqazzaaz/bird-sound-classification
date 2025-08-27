@@ -8,13 +8,13 @@ We developed a **deep learning ensemble** based on CNNs with attention mechanism
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 BirdCLEF 2025 provides 60-second soundscape recordings containing multiple overlapping bird species.  
 Our pipeline transforms audio into **mel spectrograms** and applies an **ensemble of CNN-based models (TimmSED)** to perform multi-label classification across **207 bird species**.
 
 ---
 
-## 📊 Approach
+## Approach
 
 ### 1. Dataset
 - **Source**: BirdCLEF 2025 dataset  
@@ -38,21 +38,21 @@ Our pipeline transforms audio into **mel spectrograms** and applies an **ensembl
 
 ---
 
-## 📈 Results
+## Results
 - **Baseline (EfficientNet B0)**: 0.68  
 - **Improved Model (TimmSED + Ensemble)**: **0.872**  
 - Gains achieved through **attention mechanisms, ensembling, and smarter postprocessing**.  
 
 ---
 
-## 🔧 Repository Structure
+## Repository Structure
 - `el-grande.ipynb` – Main Kaggle notebook with full pipeline  
 - `poster/` – Project poster summarizing our approach and results  
 - `README.md` – Project documentation (this file)  
 
 ---
 
-## 👥 Team
+## Team
 - Malek  
 - Wael  
 - Abdullah  
@@ -64,11 +64,11 @@ Supervised by **Simon Klüttermann, Steffen Maletz, Tim Katzke, Lars Grönberg**
 
 ---
 
-## 📚 References
+## References
 - [BirdCLEF 2025 Competition](https://www.kaggle.com/competitions/birdclef-2025)  
 ---
 
-## 🏆 Key Takeaways
+## Key Takeaways
 - **Attention + Ensembles = Better performance**  
 - **Postprocessing** (power correction & smoothing) improved real-world robustness  
 - Final score: **0.872**
