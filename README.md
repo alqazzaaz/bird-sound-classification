@@ -47,7 +47,8 @@ Our pipeline transforms audio into **mel spectrograms** and applies an **ensembl
 
 ## Repository Structure
 - el-grande.ipynb – Main Kaggle notebook with full pipeline  
-- poster/ – Project poster summarizing our approach and results  
+- poster/ – Project poster summarizing our approach and results
+- score-screenshot – Screenshot showing our best score in the competition
 - README.md – Project documentation (this file)  
 
 ---
