@@ -27,7 +27,7 @@ Our pipeline transforms audio into **mel spectrograms** and applies an **ensembl
 
 ### 2. Model Architecture
 - **Backbone**: eca_nfnet_l0 (via timm library)  
-- **Framework**: Custom TimmSED architecture with attention (`AttBlockV2`)  
+- **Framework**: Custom TimmSED architecture with attention (AttBlockV2)  
 - **Output**: Multi-label sigmoid scores per 5s chunk  
 
 ### 3. Inference & Postprocessing
