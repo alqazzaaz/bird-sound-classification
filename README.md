@@ -26,7 +26,7 @@ Our pipeline transforms audio into **mel spectrograms** and applies an **ensembl
   - Features: Mel spectrograms (128 mel bands, 50–16,000 Hz)  
 
 ### 2. Model Architecture
-- **Backbone**: `eca_nfnet_l0` (via timm library)  
+- **Backbone**: eca_nfnet_l0 (via timm library)  
 - **Framework**: Custom TimmSED architecture with attention (`AttBlockV2`)  
 - **Output**: Multi-label sigmoid scores per 5s chunk  
 
@@ -46,9 +46,9 @@ Our pipeline transforms audio into **mel spectrograms** and applies an **ensembl
 ---
 
 ## Repository Structure
-- `el-grande.ipynb` – Main Kaggle notebook with full pipeline  
-- `poster/` – Project poster summarizing our approach and results  
-- `README.md` – Project documentation (this file)  
+- el-grande.ipynb – Main Kaggle notebook with full pipeline  
+- poster/ – Project poster summarizing our approach and results  
+- README.md – Project documentation (this file)  
 
 ---
 
